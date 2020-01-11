@@ -12,12 +12,12 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Welcome to My Website</h1>
-        <BrowserRouter basename={process.env.REACT_APP_BASE_HREF || ''}>
+        <BrowserRouter basename={process.env.REACT_APP_BASE_HREF || '/my-login-page'}>
           <Switch>
-            <Route path='/' component={Login} exact/>
             <Route path='/login' component={Login} exact/>
             <Route path='/register' component={Register} exact/>
-            <Route component={PageNotFound} />
+            <Route path='/' component={PageNotFound}/>
+            {/* <Route component={PageNotFound} /> */}
           </Switch>
         </BrowserRouter>
       </div>
