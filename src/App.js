@@ -16,7 +16,7 @@ class App extends Component {
           <Switch>
             <Route path='/login' component={Login} exact/>
             <Route path='/register' component={Register} exact/>
-            <Route path='/' component={Login}/>
+            {/* <Route path='/' component={Login}/> */}
             <Route component={PageNotFound} />
           </Switch>
         </BrowserRouter>
