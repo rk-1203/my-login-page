@@ -8,7 +8,7 @@ import './App.css'
 
 class App extends Component {
   render() {
-    console.log("BASE_HREF : ",process.env.REACT_APP_BASE_HREF);
+    console.log("BASE_HREF : ",process.env.PUBLIC_URL);
     return (
       <div className="App">
         <h1>Welcome to My Website</h1>
@@ -16,8 +16,8 @@ class App extends Component {
           <Switch>
             <Route path='/login' component={Login} exact/>
             <Route path='/register' component={Register} exact/>
-            <Route path='/' component={PageNotFound}/>
-            {/* <Route component={PageNotFound} /> */}
+            <Route path='/' component={Login}/>
+            <Route component={PageNotFound} />
           </Switch>
         </BrowserRouter>
       </div>
