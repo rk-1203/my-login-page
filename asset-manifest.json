@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-login-page/static/css/main.2cce8147.chunk.css",
+    "main.js": "/my-login-page/static/js/main.5d11895e.chunk.js",
+    "main.js.map": "/my-login-page/static/js/main.5d11895e.chunk.js.map",
+    "runtime~main.js": "/my-login-page/static/js/runtime~main.3a316a00.js",
+    "runtime~main.js.map": "/my-login-page/static/js/runtime~main.3a316a00.js.map",
+    "static/js/2.a3a433f7.chunk.js": "/my-login-page/static/js/2.a3a433f7.chunk.js",
+    "static/js/2.a3a433f7.chunk.js.map": "/my-login-page/static/js/2.a3a433f7.chunk.js.map",
+    "index.html": "/my-login-page/index.html",
+    "precache-manifest.6294a40deb3fe5816ce0b3868e0e031a.js": "/my-login-page/precache-manifest.6294a40deb3fe5816ce0b3868e0e031a.js",
+    "service-worker.js": "/my-login-page/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/my-login-page/static/css/main.2cce8147.chunk.css.map",
+    "static/media/Loader.gif": "/my-login-page/static/media/Loader.ebffb57d.gif"
+  }
+}
