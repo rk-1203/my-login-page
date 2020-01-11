@@ -8,6 +8,7 @@ import './App.css'
 
 class App extends Component {
   render() {
+    console.log("BASE_HREF : ",process.env.REACT_APP_BASE_HREF);
     return (
       <div className="App">
         <h1>Welcome to My Website</h1>
