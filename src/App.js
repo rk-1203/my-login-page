@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Welcome to My Website</h1>
-        <BrowserRouter basename={process.env.REACT_APP_BASE_HREF || '/my-login-page'}>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route path='/login' component={Login} exact/>
             <Route path='/register' component={Register} exact/>
